@@ -11,6 +11,7 @@
 
 #include "d3dApp.h"
 #include "InitDirect3DApp.h"
+#include "BoxApp.h"
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE prevInstance,
 	PSTR cmdLine, int showCmd)
@@ -20,7 +21,11 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE prevInstance,
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 #endif
 
-	D3DApp* theApp = new InitDirect3DApp(hInstance);
+	//Chapter 4 - InitD3D demo
+	//D3DApp* theApp = new InitDirect3DApp(hInstance);
+
+	//Chapter 4 - InitD3D demo
+	D3DApp* theApp = new BoxApp(hInstance);
 
 	if (!theApp->Init())
 		return 0;
