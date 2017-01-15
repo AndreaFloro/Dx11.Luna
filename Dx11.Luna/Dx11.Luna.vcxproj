@@ -30,8 +30,10 @@
     <ClCompile Include="..\Common\Waves.cpp" />
     <ClCompile Include="BoxApp.cpp" />
     <ClCompile Include="FirstAp.cpp" />
+    <ClCompile Include="HillsDemo.cpp" />
     <ClCompile Include="InitDirect3DApp.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ShapesApp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Common\d3dApp.h" />
@@ -46,7 +48,9 @@
     <ClInclude Include="..\Common\Waves.h" />
     <ClInclude Include="BoxApp.h" />
     <ClInclude Include="FirstAp.h" />
+    <ClInclude Include="HillsDemo.h" />
     <ClInclude Include="InitDirect3DApp.h" />
+    <ClInclude Include="ShapesApp.h" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="..\Content\FX\color.fx">

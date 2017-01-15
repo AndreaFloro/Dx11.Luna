@@ -10,8 +10,14 @@
 #endif
 
 #include "d3dApp.h"
-#include "InitDirect3DApp.h"
-#include "BoxApp.h"
+//InitD3D demo
+//#include "InitDirect3DApp.h"
+//Drawing in Direct3D - Box demo
+//#include "BoxApp.h"
+//Drawing in Direct3D - Hills demo
+//#include "HillsDemo.h"
+//Drawing in Direct3D - Shapes demo
+#include "ShapesApp.h"
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE prevInstance,
 	PSTR cmdLine, int showCmd)
@@ -21,11 +27,17 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE prevInstance,
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 #endif
 
-	//Chapter 4 - InitD3D demo
+	//InitD3D demo
 	//D3DApp* theApp = new InitDirect3DApp(hInstance);
 
-	//Chapter 4 - InitD3D demo
-	D3DApp* theApp = new BoxApp(hInstance);
+	//Drawing in Direct3D - Box demo
+	//D3DApp* theApp = new BoxApp(hInstance);
+
+	//Drawing in Direct3D - Hills demo
+	//D3DApp* theApp = new HillsDemo(hInstance);
+
+	//Drawing in Direct3D - Shapes demo
+	D3DApp* theApp = new ShapesApp(hInstance);
 
 	if (!theApp->Init())
 		return 0;
