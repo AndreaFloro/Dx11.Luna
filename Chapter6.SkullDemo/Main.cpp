@@ -47,7 +47,7 @@
 #include <crtdbg.h>
 #endif
 
-#include "ShapesDemo.h"
+#include "SkullApp.h"
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE prevInstance,
 	PSTR cmdLine, int showCmd)
@@ -57,7 +57,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE prevInstance,
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 #endif
 
-	D3DApp* theApp = new ShapesDemo(hInstance);
+	D3DApp* theApp = new SkullApp(hInstance);
 
 	if (!theApp->Init())
 		return 0;
