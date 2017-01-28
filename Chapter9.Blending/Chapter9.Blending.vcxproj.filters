@@ -13,60 +13,72 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="FX">
-      <UniqueIdentifier>{7b319ec4-3e72-44ce-a373-95b91a98198d}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Textures">
-      <UniqueIdentifier>{67bbfa06-0781-4bc5-ad04-097ad5288607}</UniqueIdentifier>
+      <UniqueIdentifier>{4fa2b6a6-94cb-46a3-8b41-34aaaa41d694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FX">
+      <UniqueIdentifier>{df1b1e18-e641-4401-853c-27d79757f8df}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CrateApp.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlendDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="Vertex.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Effects.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="RenderStates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CrateApp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Vertex.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Effects.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="Textures\WoodCrate02.dds">
+    <Image Include="Textures\water2.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\WireFence.dds">
       <Filter>Textures</Filter>
     </Image>
     <Image Include="Textures\WoodCrate01.dds">
       <Filter>Textures</Filter>
     </Image>
-    <Image Include="Textures\darkbrickdxt1.dds">
+    <Image Include="Textures\WoodCrate02.dds">
       <Filter>Textures</Filter>
     </Image>
-    <Image Include="Textures\darkbrick.bmp">
+    <Image Include="Textures\grass.dds">
       <Filter>Textures</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Textures\water1.dds">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="FX\LightHelper.fx">
+      <Filter>FX</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="FX\Basic.fx">
       <Filter>FX</Filter>
     </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="FX\LightHelper.fx">
-      <Filter>FX</Filter>
-    </None>
   </ItemGroup>
 </Project>
