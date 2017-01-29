@@ -67,7 +67,7 @@
 class d3dHelper
 {
 public:
-
+	
 	static ID3D11ShaderResourceView* CreateRandomTexture1DSRV(ID3D11Device* device);
 };
 

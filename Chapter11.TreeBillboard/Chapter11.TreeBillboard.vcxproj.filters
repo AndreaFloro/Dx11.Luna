@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Textures">
+      <UniqueIdentifier>{7472e98f-75dd-4718-8f6b-88575e034c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FX">
+      <UniqueIdentifier>{5c32d570-9b50-4853-8ed6-4e3a6b78b4cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{14dd3233-9419-4458-9c15-180d81fb3834}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeBillboardApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FX\LightHelper.fx">
+      <Filter>FX</Filter>
+    </None>
+    <None Include="Models\car.txt">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\skull.txt">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Textures\brick01.dds">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="Textures\checkboard.dds">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="Textures\grass.dds">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="Textures\ice.dds">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="Textures\tree0.dds">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="Textures\tree1.dds">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="Textures\tree2.dds">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="Textures\tree3.dds">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="Textures\treearray.dds">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="Textures\water1.dds">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="Textures\water2.dds">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="Textures\WireFence.dds">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="Textures\WoodCrate01.dds">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="Textures\WoodCrate02.dds">
+      <Filter>Textures</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="FX\Basic.fx">
+      <Filter>FX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FX\TreeSprite.fx">
+      <Filter>FX</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Effects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeBillboardApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
